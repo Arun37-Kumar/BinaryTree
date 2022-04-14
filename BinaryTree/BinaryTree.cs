@@ -86,7 +86,5 @@ namespace BinaryTree
             }
             return result;
         }
-
-
     }
 }

@@ -28,7 +28,12 @@ namespace BinaryTree
             binarySearch.Insert(63);
             binarySearch.Insert(67);
             binarySearch.Display();
+
+            //Get the size of the tree
             binarySearch.GetSize();
+
+            // Finding the element
+            bool result = binarySearch.IfExists(63, binarySearch);
             Console.ReadLine();
 
            
